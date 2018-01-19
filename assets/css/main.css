@@ -1707,10 +1707,12 @@
 		text-align: left;
 		font-weight: bold;
 	}
-	.ul_pj {
+	.ul_pj {		
+		color: #000;
 		text-align: left;
 	}
-	.li_pj {
+	.li_pj {		
+		color: #000;
 		list-style: square;
 	}
 
