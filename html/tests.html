@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tests</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+		<link rel="icon" type="image/png" href="../images/icons/maladie.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../images/icons/favicon.ico" /><![endif]-->
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="../images/icons/maladie.png" alt="" /></span>
+							<h1 id="title">La SEP</h1>
+							<p>Un site pour tout comprendre</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="../index.html" id="lien-menu" class="skel-layers-ignoreHref"><span class="icon fa-home">Menu</span></a></li>
+								<li><a href="description.html" id="lien-description" class="skel-layers-ignoreHref"><span class="icon fa-bug">Descriptif de la SEP</span></a></li>
+								<li><a href="symptomes.html" id="lien-symptomes" class="skel-layers-ignoreHref"><span class="icon fa-heartbeat">Symptômes</span></a></li>
+								<li><a href="prise_en_charge.html" id="lien-pec" class="skel-layers-ignoreHref"><span class="icon fa-user-md">Prise en charge</span></a></li>
+								<li><a href="cas_concret.html" id="lien-cas" class="skel-layers-ignoreHref"><span class="icon fa-search">Cas concret</span></a></li>
+								<li><a href="#top" id="lien-tests" class="skel-layers-ignoreHref scrollzer-locked active"><span class="icon fa-gamepad">Testez vous !</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://fr.wikipedia.org/wiki/Sclérose_en_plaques" target="_blank" class="icon fa-wikipedia-w"><span class="label">Wikipedia</span></a></li>
+							<li><a href="#" class="icon fa-nop"><span class="label">blank</span></a></li>
+							<li><a href="https://www.youtube.com/results?search_query=scl%C3%A9rose+en+plaque" target="_blank" class="icon fa-youtube"><span class="label">Facebook</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<div class="menu-avatar"><img src="../images/icons/tests.png" alt="tests" /></div>
+								<h2>Les Tests</h2>
+							</header>
+
+							<footer>
+								<a href="#tests" class="button scrolly">C'est parti !</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- La Maladie -->
+					<section id="tests" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Testez-vous !</h2>
+							</header>
+
+							<!-- Question 1 -->
+							<h4 class="h4_pj">Question 1</h4>
+							<p class="p_justifie">
+								Quelle est la nature de la sclérose en plaques ?
+							</p>
+							<button id="answer_1_1" class="button_test" onclick="testAnswer(1,1,3);">C'est une maladie prénatale</button>
+							<button id="answer_1_2" class="button_test" onclick="testAnswer(1,2,3);">C'est une maladie neurologique</button>
+							<button id="answer_1_3" class="button_test" onclick="testAnswer(1,3,3);">C'est une maladie cardiovasculaire</button>
+							<br/><br/>
+							<p id="answerType_1" class="p_answer">Vrai ou faux</p>
+							<p id="answerText_1" class="p_answer">
+								La sclérose en plaques est une pathologie neurologique non traumatique du système nerveux central (SNC) qui se caractérise par une réaction inflammatoire altérant la myéline du SNC et détériorant ainsi la qualité des influx nerveux.
+							</p>
+							<p id="answerMore_1" class="p_answer"><a href="description.html#caracterisation" target = "_blank" class="button scrolly">Je veux en savoir plus...</a></p>
+
+							<!-- Question 2 -->
+							<h4 class="h4_pj">Question 2</h4>
+							<p class="p_justifie">
+								Meurt-on de la SEP ?
+							</p>
+							<button id="answer_2_1" class="button_test" onclick="testAnswer(2,1,2);">Oui</button>
+							<button id="answer_2_2" class="button_test" onclick="testAnswer(2,2,2);">Non</button>
+							<br/><br/>
+							<p id="answerType_2" class="p_answer">Vrai ou faux</p>
+							<p id="answerText_2" class="p_answer">
+								La différence est très subtile (voir philosophique) mais on ne meurt pas directement de la SEP. En effet ce sont plutôt ses conséquences qui peuvent amener le dècès.
+								<br/>
+								L'espérance de vie des personnes atteintes de la SEP est globalement inférieur de 6 à 7 ans de la population générale et les causes de décès des personnes atteintes de SEP sont le plus souvent les mêmes que celles observées dans la population non touchée par la maladie.
+							</p>
+							<p id="answerMore_2" class="p_answer"><a href="prise_en_charge.html#constat" target = "_blank" class="button scrolly">Je veux en savoir plus...</a></p>
+
+							<!-- Question 3 -->
+							<h4 class="h4_pj">Question 3</h4>
+							<p class="p_justifie">
+								Combien de temps dure une pousée ?
+							</p>
+							<button id="answer_3_1" class="button_test" onclick="testAnswer(3,1,3);">Entre 1 et 2 minutes</button>
+							<button id="answer_3_2" class="button_test" onclick="testAnswer(3,2,3);">Entre 1 et 2 heures</button>
+							<button id="answer_3_3" class="button_test" onclick="testAnswer(3,3,3);">24h ou plus</button>
+							<br/><br/>
+							<p id="answerType_3" class="p_answer">Vrai ou faux</p>
+							<p id="answerText_3" class="p_answer">
+								Une poussée dure au moins 24h et peut durer plusieurs semaines !
+							</p>
+							<p id="answerMore_3" class="p_answer"><a href="symptomes.html#poussees" target = "_blank" class="button scrolly">Je veux en savoir plus...</a></p>
+
+							<!-- Question 4 -->
+							<h4 class="h4_pj">Question 4</h4>
+							<p class="p_justifie">
+								Quel est le pourcentage de femmes parmi les personnes atteintes de SEP en France ?
+							</p>
+							<button id="answer_4_1" class="button_test" onclick="testAnswer(4,1,3);">25%</button>
+							<button id="answer_4_2" class="button_test" onclick="testAnswer(4,2,3);">50%</button>
+							<button id="answer_4_3" class="button_test" onclick="testAnswer(4,3,3);">75%</button>
+							<br/><br/>
+							<p id="answerType_4" class="p_answer">Vrai ou faux</p>
+							<p id="answerText_4" class="p_answer">
+								3 personnes sur 4 atteinte de SEP en France sont des femmes.
+							</p>
+							<p id="answerMore_4" class="p_answer"><a href="description.html#repartition" target = "_blank" class="button scrolly">Je veux en savoir plus...</a></p>
+
+							<!-- Question 5 -->
+							<h4 class="h4_pj">Question 5</h4>
+							<p class="p_justifie">
+								Quel est le symptôme le plus important chez une personne atteinte de la SEP ?
+							</p>
+							<button id="answer_5_1" class="button_test" onclick="testAnswer(5,1,3);">La fatigue</button>
+							<button id="answer_5_2" class="button_test" onclick="testAnswer(5,2,3);">Des troubles visuels</button>
+							<button id="answer_5_3" class="button_test" onclick="testAnswer(5,3,3);">Des douleurs dans le corps</button>
+							<br/><br/>
+							<p id="answerType_5" class="p_answer">Vrai ou faux</p>
+							<p id="answerText_5" class="p_answer">
+								La fatigue est un symptôme prépondérant dans la SEP.
+							</p>
+							<p id="answerMore_5" class="p_answer"><a href="symptomes.html#fatigue" target = "_blank" class="button scrolly">Je veux en savoir plus...</a></p>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+					<ul class="copyright">
+						<li>Projet TIC 2017</li><li>Maëva Echarif, Lamia Ezzabdi (IFE Bordeaux)</li><li>Aubin Brunisholz, Josias Lévi Alvarès (ENSC)</li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.scrollzer.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+			<script>
+				function testAnswer(question, answer, numberAnswers)
+				{
+					var correctAnswers = new Array(2,2,3,3,1);
+					var answerIsCorrect = correctAnswers[question - 1] == answer;
+					var elmt = document.getElementById("answer_"+question+"_"+answer);
+					var elmt_answerType = document.getElementById("answerType_"+question);
+					var elmt_answerText = document.getElementById("answerText_"+question);
+					var elmt_answerMore = document.getElementById("answerMore_"+question);
+
+					for (var i = 0; i < numberAnswers; i++) {
+						var buttonToReset = document.getElementById("answer_"+question+"_"+ (i+1));
+						buttonToReset.style.backgroundColor = "#8ebebc"
+					}
+
+					if(answerIsCorrect)
+					{						
+						elmt.style.backgroundColor = "#629632";
+						elmt_answerType.textContent = "Vrai 😁";
+					}
+					else
+					{
+						elmt.style.backgroundColor = "#BF212F";
+						elmt_answerType.textContent = "Pas exactement 😏";
+					}
+					
+					elmt_answerType.style.display = "block";
+					elmt_answerText.style.display = "block";
+					elmt_answerMore.style.display = "block";
+				}
+			</script>
+
+	</body>
+</html>
